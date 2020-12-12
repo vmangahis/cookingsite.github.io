@@ -1,0 +1,322 @@
+body{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+.main-container{
+    background:linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url('../images/showcase-image.png');
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom:250px;
+    border-bottom: 3px solid black;
+}
+
+header{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom:50px;
+}
+
+header a{
+    text-decoration: none;
+    color:white;
+}
+
+
+
+header h1{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size:3em;
+}
+
+.main-nav{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+.main-nav ul{
+    display:flex;
+    
+    
+}
+
+.main-nav li{
+    list-style: none;
+    padding-right:35px;
+    font-size:1.3em;
+}
+.main-showcase{
+
+    padding-top:100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color:white;
+    align-items: center;
+    
+}
+
+.main-showcase h1{
+    display: flex;
+    font-size:2em;
+    justify-content: center;
+
+    
+    
+}
+.main-showcase p {
+    margin:10px;
+    display:flex;
+    justify-content: center;
+    font-size:1.6em;
+}
+.top-recipe{
+    background-color: #f5deb3;
+    text-align: center;
+    border-bottom: 3px solid black;
+}
+
+.top-recipe h1{
+    margin:0;
+    padding: 20px;
+}
+
+.top-recipe img{
+    margin:20px;
+    border: 5px solid #5d432c;
+}
+
+.top-recipe p {
+    margin:0;
+    padding:10px;
+}
+
+.top-recipe-text{
+    margin:0;
+    padding:10px;
+    font-weight: bold;
+    font-size:1.5em;
+
+}
+
+footer{
+    background-color: #5d432c;
+}
+
+footer h3{
+    margin:0;
+}
+
+.copyright{
+    margin:0;
+    padding-bottom:10px;
+    text-align: center;
+    font-size:1.8em;
+
+}
+
+.footer-sub{
+    display:flex;
+}
+
+
+
+.footer-sub h3{
+    font-size:2em;
+    padding:25px;
+}
+
+.email-input{
+    height:25px;
+    width:400px;
+    margin-left:25px;
+}
+.submit-button{
+    height:35px;
+    outline:none;
+    background-color:brown;
+    border: 2px solid black;
+    font-size:1.3em;
+    font-weight:bold;
+}
+
+.subscribe-container{
+    margin-right:20px;
+}
+
+
+.footer-sub li{
+    list-style-type: none;
+    padding-bottom:20px;
+}
+
+.footer-sub a{
+    color:black;
+    font-size:1.9em;
+    justify-content: flex-end;
+}
+.footer-sub nav{
+    display:flex;
+    justify-content: flex-end;
+    margin: 10px 300px 0 0;
+    flex:1;
+}
+
+/*    Recipes html specific styles              */
+
+.current-recipe{
+    text-align: center;
+    background-color: #f5deb3;
+}
+
+.current-recipe h1{
+    display:inline-block;
+}
+
+.recipe-list{
+    display:flex;
+    justify-content: center;
+}
+
+.recipe-list a{
+    padding-right:20px;
+}
+
+.recipe-list ul{
+    display:flex;
+}
+
+.recipe-list li{
+    list-style-type: none;
+    margin-right:20px;
+    
+}
+
+.recipe-list li{
+font-size:1.5em;
+    
+}
+
+.recipe-list img{
+    display: flex;
+    height:360px;
+    width:360px; 
+    border: 5px solid brown;
+}
+
+
+/* recipe specific page */
+
+.recipe{
+    background-color: #f5deb3;
+    text-align: center;
+    border-bottom: 2px solid black;
+}
+
+.recipe h1{
+    padding-top:20px;
+    margin:0;
+    margin-bottom:20px;
+}
+
+.recipe img{
+    text-align: left;
+    width:500px;
+    height:500px;
+    border-radius:50%;
+    margin-right:20px;
+    border: 4px solid brown;
+}
+
+
+
+.ingredients-container{
+    display: flex;
+    justify-content: center;   
+    align-items: center; 
+}
+
+.ingredients-container li{
+    font-size:1.5em;
+}
+
+
+
+.proc-container{
+    display:flex;
+
+    justify-content: center;
+}
+
+.proc-container li{
+    text-align: left;
+    font-size:1.5em;
+}
+
+.recipe h3{
+    font-size:1.9em;
+}
+
+/* Contact Page Styles   */
+
+.contact-section{
+    
+    background-color: #f5deb3;
+    
+    border-bottom: 3px solid black;
+    height:500px;
+}
+
+
+.contact-section h1{
+    padding:20px;
+    margin:0;
+}
+
+.inquiry-container{
+    
+    display: flex;
+    flex-direction: column;
+    margin-bottom:20px;
+    margin-left:20px;
+    justify-content: center;
+    
+    
+}
+.name-inp{
+    width: 200px;
+    
+}
+
+.inquiry-container input, .inquiry-container textarea{
+  resize:none;
+   
+}
+
+.submit{
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
